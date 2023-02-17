@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:wght@300&family=Phudu&family=Poppins:ital,wght@1,200&family=Quicksand&display=swap');
+*{
+    padding: 0;
+    margin: auto;
+    font-family: 'Noto Serif Tamil', serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+header .h-left{
+    width: 25%;
+    background-color: hsl(0, 0%, 0%);
+    height: 100%;
+    text-align: center;
+}
+header .h-left img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin-top: 4rem;
+}
+header .h-left h1{
+   color:hsla(33, 100%, 50%, .8) ;
+   font-size: 34px;
+   margin: 1rem 0;
+}
+header .h-left nav{
+    width: 100%;
+}
+header .h-left nav ul{
+    margin-top: 2.2rem;
+}
+header .h-left nav ul li{
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+header .h-left nav ul li .active{
+    list-style: none;
+    margin-top: 2rem;
+    border-bottom: 2px solid #fff;
+    padding-bottom: .3rem;
+}
+header .h-left nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+header .h-left nav ul li a:hover{
+    color: hsla(33, 100%, 50%, .8);    
+}
+header .h-left .icons{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+header .h-left .icons img{
+    width: 2.2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+header .h-left .icons img:hover{
+    transform: scale(1.15);
+}
+header .h-left .icons .face img{
+    width: 1.2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+header .h-left .icons .ins img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
+
+
+header .h-right{
+    width: 75%;
+    background: url(../images/ALTAN.jpg);
+    background-color: hsla(0, 0%, 0%, .7);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+header .cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: hsla(0, 0%, 0%, .5);
+    z-index: -1;
+}
+header .logo{
+    width: 90%;
+    text-align: end;
+}
+header  .logo h2{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 1rem;
+    text-align: end;
+    z-index: 10000000000;
+}
+header  .menu{
+    display: none;
+}
+
+header .h-right .intro{
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+    color: #fff;
+}
+
+header .h-right .intro h3{
+    font-size: 42px;
+    margin-top: 13rem;
+    margin-bottom: 1rem;
+}
+header .h-right .intro .span{
+    color:hsla(33, 100%, 50%, .8) ;
+}
+header .h-right .intro h6{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+/* ABOUT HTML */
+header .about{
+    width: 75%;
+    background: url(../images/forex3.jpg);
+    background-color: hsla(0, 0%, 0%, .7);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+
+}
+header .about .cover{
+    background-color: hsla(0, 0%, 0%, .8);
+    
+}
+.about .about-c{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.about .about-c .about-img{
+    width: 35%;
+   height: 60vh;
+   border: 6px solid hsla(33, 100%, 50%, .8) ;
+   border-radius: 14px;
+   display: grid;
+   place-items: center;
+   
+}
+
+.about .about-c .about-img img{
+    width: 98%;
+    height: 98%;
+    border-radius: 10px;
+    margin: auto;
+    transform: rotate(10deg);
+    transition: ease-in;
+}
+.about .about-c .about-img:hover img{
+    transform: rotate(0);
+}
+
+.about .about-c .about-txt{
+    width: 55%;
+    margin: auto;
+    color: #fff;
+}
+.about .about-c .about-txt h2{
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.about .about-c .about-txt p{
+    font-size: 20px;
+}
+.about .about-c .about-txt .numbers{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.about .about-c .about-txt .numbers .one{
+    width: 50%;
+}
+.about .about-c .about-txt .numbers h4{
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+}
+.about .about-c .about-txt .numbers span{
+    color: hsla(33, 100%, 50%, .8);
+    font-size: 28px;
+    font-weight: 600;
+    margin-right: 8px;
+}
+ button{
+    margin-top: 2rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: transparent;
+    border: 3px solid hsla(33, 100%, 50%, .8);
+    border-radius: 12px;
+    cursor: pointer;
+    width: 34%;
+    height: 55px;
+}
+.about .about-c .about-txt button:hover{
+    cursor: pointer;
+    background-color: hsla(33, 100%, 50%, .8);
+    border: 3px solid hsla(33, 100%, 50%, .8);
+}
+
+
+/* SKILL HTML */
+.skill{
+    width: 38%;
+    height: 69vh;
+    display: grid;
+    place-items: center;
+}
+.skill img{
+    border-radius: 60px 0 60px 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border: 2px solid #fff;
+}
+ .bars{
+    padding-top: 2rem;
+}
+.bars h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.progress{
+    height: 1.3rem;
+    width: 100%;
+    background-color: hsla(33, 100%, 50%, .8);
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: left;
+    position: relative;
+}
+.progress .progress-bar{
+    height: 1.3rem;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: start;
+    background-color: hsla(33, 100%, 50%, .8);
+    border-radius: 20px;
+}
+
+
+/* SERVICES HTML */
+
+.services{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+.services h2{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.services .serv-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 1.5rem;
+}
+.services .serv-grid .serv1{
+    border: 3px solid hsla(33, 100%, 50%, .8);
+    height: auto;
+    width: 90%;
+    display: grid;
+    place-items: center;
+     margin: auto;
+     border-radius: 15px;
+    margin-bottom: 1.2rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+.services .serv-grid .serv1 img{
+   height: 7rem;
+   width: 7rem;
+}
+.services .serv-grid .serv1 h3{
+   text-align: center;
+   font-size: 24px;
+   margin: .7rem 0;
+}
+
+.services .serv-grid .serv1 p{
+    width: 90%;
+    margin: auto;
+    color: #f4eaea;
+    font-size: 18px;
+    letter-spacing: 1px;
+ }
+ .s-button {
+    width: 100%;
+   text-align: center;
+}
+.s-button button{
+   margin-top: 1.1rem;
+   width: 24%;
+   background-color:hsla(33, 100%, 50%, .8) ;
+}
+
+.s-button button:hover{
+    background-color:transparent ;
+ }
+ 
+ /* CONTACT HTML */
+ 
+ .con form {
+    width: 60%;
+    border: 4px solid hsla(33, 100%, 50%, .8);
+    border-radius: 80px 0 80px 0;
+    height: auto;
+    padding: 1rem 0;
+ }
+
+ .con form .serv{
+    width: 80%;
+   
+ } 
+ .con form .serv .contact{
+    width: 100%;
+   
+ } 
+ .con form .serv input{
+    width: 100%;
+    border-radius: 50px;
+    height: 25px;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 1rem;
+    padding: .6rem 0 .6rem .6rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid #5e5e5e;
+ } 
+
+ .con form .serv textarea{
+    width: 100%;
+    border-radius: 20px;
+    height: 55px;
+    color: white;
+    font-size: 17px;
+    padding: 1rem 0 0 .5rem;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid #5e5e5e;
+ } 
+
+ .reach{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+ }
+
+ .reach .reach1{
+    width: 22%;
+    height: 3rem;
+ }
+ .reach .reach1:hover{
+    transform: scale(1.15);
+ }
+
+ .reach .reach1 img{
+    width: 2rem;
+    height: 2rem;
+ }
+
+ .reach .reach1 a{
+    width: 90%;
+    color: #fff;
+    font-size: 17px;
+ }

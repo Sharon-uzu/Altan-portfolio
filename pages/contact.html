@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/styles/style.css">
+    <link rel="stylesheet" href="../assets/styles/media.css">
+    <title>ALTAN PORTFOLIO</title>
+</head>
+<body>
+    <header>
+        <div class="h-left" id="link">
+            <div class="pix">
+                <img src="../assets/images/ALTAN.jpg" alt="">
+                <h1>Fintan Alex</h1>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="./about.html">ABOUT</a></li>
+                        <li><a href="./skill.html" >SKILLS</a></li>
+                        <li><a href="./service.html">SERVICES</a></li>
+                        <li><a href="./contact.html" class="active">CONTACT</a></li>
+                    </ul>
+
+                    <div class="icons">
+                        <a href="https://twitter.com/alex_fintan"><img src="../assets/images/tt-removebg-preview.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/alex-fintan-20a267105"><img src="../assets/images/10-102671_linkedin-white-png-download-linkedin-icon-white-circle.png" alt=""></a>
+                        <a href="https://www.facebook.com/fintan.alexwhitefire" class="face"><img src="../assets/images/940-9402277_facebook-icon-link-facebook-white-icon-removebg-preview.png" alt=""></a>
+                        <a href="https://instagram.com/alex_whitefire" class="ins"><img src="../assets/images/instagram-removebg-preview.png" alt=""></a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="about">
+            <div class="cover"></div>
+            <div class="logo">
+                <h2> ALTAN</h2>
+                <div class="menu">
+                    <img src="../assets/images/Hamburger Menu.svg" alt="" id="menubar" onclick="opens()">
+                    <img src="../assets/images/close-removebg-preview.png" alt="" id="closebar">
+                </div>
+            </div>
+            
+            <div class="services con">
+                <h2>Contact Me</h2>
+                <form id="form" data-aos="zoom-out">
+                    <div class="serv">
+                        <div class="contact">
+                            <input type="text" name="name" id="full" placeholder="Enter Full Name"><br>
+                            <input type="email" name="email" id="mail" placeholder="Enter E-mail"><br>
+                            <input type="tel" name="phone" id="tel" placeholder="Phone Number"><br>
+                            <textarea name="message" id="text" cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="s-button">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+
+                <div class="reach">
+                    <div class="reach1">
+                        <a href="tel:+2347060666480"><img src="../assets/images/phones-removebg-preview.png" alt=""></a><br>
+                        <a href="tel:+2347060666480">+234 706 066 6480</a>
+                    </div>
+
+                    <div class="reach1">
+                        <a href="mailto:alexfintan7@gmail.com"><img src="../assets/images/mail imgb.png" alt=""></a><br>
+                        <a href="mailto:alexfintan7@gmail.com">alexfintan7@gmail.com</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </header>
+
+    
+
+    <script src="../script/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    
+    
+    <script>
+        AOS.init({
+        duration:1000,
+        delay:400
+  
+    });
+    </script>
+
+
+</body>
+</html>
